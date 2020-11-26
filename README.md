@@ -102,7 +102,7 @@ Technically, this should work with any `input` types. That being said, it has on
 
 ## Examples
 
-Just to make sure _all bases_ are covered here, here are several examples of usage. To see some live examples, you will need to download and run the example from [here](https://choosealicense.com/licenses/mit/).
+Just to make sure _all bases_ are covered here, here are several examples of usage. To see some live examples, you will need to download and run the example from [here](https://github.com/okdv/react-auto-tab).
 
 First we will just turn off `prevonkey`, so when we backspace on an empty element here, it wont back-tab to the previous element.
 
@@ -158,8 +158,8 @@ Please make sure to update tests as appropriate.
 
 ## Issues
 
-If you have any feedback, notice any bugs, or just have a burning question feel free to [open an issue on Github](https://choosealicense.com/licenses/mit/).
+If you have any feedback, notice any bugs, or just have a burning question feel free to [open an issue on Github](https://github.com/okdv/react-auto-tab/issues).
 
 ## License
 
-[MIT](https://choosealicense.com/licenses/mit/) © [Otho DuBois](https://github.com/okdv)
+[MIT](https://github.com/okdv/react-auto-tab/blob/master/LICENSE.txt) © [Otho DuBois](https://github.com/okdv)
