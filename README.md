@@ -2,6 +2,10 @@
 
 This is a lightweight package that allows you to easily implement auto-tabbing (focusing the next input), even in your existing project. You can auto-tab forward on maxLength, keypress, or both! You can even reverse-tab on backspacing an empty input!
 
+## Demo / Example
+
+[Go to this page to see a live demo!] (https://okdv.github.io/react-auto-tab/)
+
 ## Installation
 
 Use the package manager [npm](https://www.npmjs.com/get-npm) to install react-auto-tab.
