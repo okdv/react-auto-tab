@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "./static/css/main.984e5aef.chunk.css",
+    "main.js": "./static/js/main.1fb27263.chunk.js",
+    "main.js.map": "./static/js/main.1fb27263.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.06383201.js",
+    "runtime-main.js.map": "./static/js/runtime-main.06383201.js.map",
+    "static/js/2.cc488cd2.chunk.js": "./static/js/2.cc488cd2.chunk.js",
+    "static/js/2.cc488cd2.chunk.js.map": "./static/js/2.cc488cd2.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.38bd7f0ef8622c90505ca4b0c59db235.js": "./precache-manifest.38bd7f0ef8622c90505ca4b0c59db235.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/main.984e5aef.chunk.css.map": "./static/css/main.984e5aef.chunk.css.map",
+    "static/js/2.cc488cd2.chunk.js.LICENSE.txt": "./static/js/2.cc488cd2.chunk.js.LICENSE.txt",
+    "static/media/bee-conservancy-logo.png": "./static/media/bee-conservancy-logo.0d5dcb63.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.06383201.js",
+    "static/js/2.cc488cd2.chunk.js",
+    "static/css/main.984e5aef.chunk.css",
+    "static/js/main.1fb27263.chunk.js"
+  ]
+}
