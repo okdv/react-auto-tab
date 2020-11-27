@@ -1,10 +1,19 @@
 {
   "name": "react-auto-tab",
-  "version": "1.0.0",
-  "description": "Small and independent provider component for simple element auto-inputting",
-  "author": "okdv",
+  "version": "1.0.1",
+  "description": "Easily allow auto-tab next/prev element on maxLength, keyPress, and more",
+  "author": "Otho DuBois <okd@otho.dev> (https://otho.dev)",
+  "homepage": "https://github.com/okdv/react-auto-tab",
+  "bugs": {
+    "url": "https://github.com/okdv/react-auto-tab/issues",
+    "email": "okd@otho.dev"
+  },
   "license": "MIT",
-  "repository": "okdv/react-auto-tab",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/okdv/react-auto-tab.git"
+  },
+  "private": false,
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
