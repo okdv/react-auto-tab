@@ -33,7 +33,7 @@ const App = () => {
         <AutoTabProvider className="tab-group big-input-group">
           <Text m="1">+</Text>
           <input  style={{width:".8em"}} placeholder='1' type="text" maxLength={1} tabbable="true" />
-          <Text tabbable="true" onFocus={() => console.log("test")} m="1">+</Text>
+          <Text m="1">+</Text>
           <input style={{width:"2em"}} placeholder='888' type="text" maxLength={3} tabbable="true" />
           <Text m="1">)&nbsp;</Text>
           <input style={{width:"2em"}} placeholder='867' type="text" maxLength={3} tabbable="true" />
@@ -90,7 +90,7 @@ const App = () => {
           <input settings={{tabOnChange:true}} type="checkbox" id="check-1" tabbable="true" />
           <input style={{width:"7em"}} placeholder='Versatile' type="text" maxLength={5} tabbable="true" />
           <input settings={{tabOnChange:true}} type="radio" name="radio-group" tabbable="true" />
-          <input style={{width:"3em"}} placeholder='How' type="text" maxLength={5} tabbable="true" />
+          <input style={{width:"3em"}} placeholder='Wow' type="text" maxLength={5} tabbable="true" />
         </AutoTabProvider>
       </Container>
       <br />
