@@ -130,6 +130,22 @@ This also provides some insight into how you can insert custom refs for elements
  - Known working elements:`input`, `textarea`, and `select`
  - Known working input types: checkbox (`onChange` only), color (`onChange` only), date (`onChange` only), datetime-local (`onChange` only), email, file (`onChange` only), image (`onChange` only), month (`onChange` only), number, password, radio (`onChange` only), range (`onChange` only), search, tel, text, time (`onChange` only), url, week (`onChange` only)
 
+## Migrating from 1.X.X
+The migration is simple. The same `AutoTabProvider` is used, options/settings available are still stored within the `settings` prop of the provider.
+
+Package options on children are now located inside a `settings` prop as well. So `<input type="text" maxLength="3" focusonmax="true" />` will now become `<input type="text" maxLength={3} settings={{tabOnMax:true}} tabbable />`. 
+
+Certain props like `maxLength` and `style` cannot equal a string, see docs. Must be camelCase.  
+
+Certain props like `ignorefocus` have been deprecated. Instead use `tabbable` when a child should be tabbable, and omit this when it should be ignored. 
+
+While many prop names changed, they carry the same functions mostly. The change mappings are below:
+ - `prevonkey` => `backTabOnKeys`
+ - `nextonkey` => `tabOnKeys`
+ - `nextonmax` => `tabOnMax`
+
+There are some new props and instructions for custom props and functions. Review docs for this information.
+
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
