@@ -1,15 +1,15 @@
 {
   "name": "react-auto-tab",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Simple auto tabbing provider for React.js",
   "author": "Otho DuBoise <okd@otho.dev> (https://othodubois.com)",
   "homepage": "https://github.com/okdv/react-auto-tab",
-  "private":false,
+  "private": false,
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/okdv/react-auto-tab.git"
-  },  
+  },
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
