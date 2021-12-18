@@ -33,7 +33,7 @@
     "deploy": "gh-pages -d example/build"
   },
   "peerDependencies": {
-    "react": "^16.0.0"
+    "react": ">=16"
   },
   "devDependencies": {
     "microbundle-crl": "^0.13.10",
